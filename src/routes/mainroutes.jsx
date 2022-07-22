@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Route, Outlet } from "react-router-dom";
+import { Routes, Route} from "react-router-dom";
 import { Home, NotFound } from "../screens";
 import RoutesPublic from "./public/routesPublic";
 

@@ -6,16 +6,13 @@ import RoutesPublic from "./public/routesPublic";
 const MainRoutes = () => {
   return (
     <>
-      <nav>
-        <Routes>
-          <Route exact path="/portfolio" element={<Home />} />
+      <Routes>
+        <Route  path="/" element={<Home />} />
 
-          <Route path="/portfolio/public/*" element={<RoutesPublic />} />
+        <Route path="/public/*" element={<RoutesPublic />} />
 
-          <Route element={<NotFound />} />
-        </Routes>
-      </nav>
-      <Outlet />
+        <Route element={<NotFound />} />
+      </Routes>
     </>
   );
 };

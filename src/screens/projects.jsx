@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import {Row,Form,Col,Card} from "react-bootstrap"
 import { TypeText } from "../components";
+import projects from "../data/projects.json"
 export const Projects = () => {
   const [isEnded, setIsEnded] = useState(0);
 
@@ -28,17 +29,19 @@ export const Projects = () => {
               style={{ paddingTop: "1mm", paddingBottom: "10cm" }}
             >
               <Row>
-                {Array.from({ length: 11 }).map((_, idx) => (
-                  <Col md="4" style={{ paddingTop: "2mm" }}>
+                {projects.map((project,index) => (
+                  <Col md="4" key={index} style={{ paddingTop: "2mm" }}>
                     <Card>
                       <Card.Body>
-                        <Card.Title>Card title</Card.Title>
+                        <Card.Title>{project.title}</Card.Title>
                         <Card.Text>
-                          This is a longer card with supporting text below as a
-                          natural lead-in to additional content. This content is
-                          a little bit longer.
+                         {project.description}<br></br>
+                         {project.date}
                         </Card.Text>
                       </Card.Body>
+                      <Card.Footer>
+                        {project.link}
+                      </Card.Footer>
                     </Card>
                   </Col>
                 ))}

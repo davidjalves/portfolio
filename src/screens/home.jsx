@@ -32,14 +32,11 @@ export const Home = () => {
         )}
       </b>
       {isEnded >= 2 && (
-        <TypeText
-          style={{ fontSize: 30 }}
-          text={"Software engineer"}
-          setIsEnded={setIsEnded}
-        />
-      )}
-      {isEnded >= 3 && (
         <>
+          <div  style={{ fontSize: 30 }}>
+           Software engineer
+          </div>
+
           <center style={{ paddingTop: "5mm", fontSize: 20 }}>Updates:</center>
           <div
             style={{
@@ -71,7 +68,7 @@ export const Home = () => {
               </Row>
             </Form.Group>
           </div>
-          <center>David Ressurreição&copy;{new Date().getFullYear() }</center>
+          <center>David Ressurreição&copy;{new Date().getFullYear()}</center>
         </>
       )}
     </div>

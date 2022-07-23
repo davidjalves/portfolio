@@ -22,11 +22,11 @@ export const AboutMe = () => {
             My degree in Telecommunications and computer engineering prepared me
             to multiple areas, like electronics, networks and programming. I
             specialized in the programming area, but I have the knowledge to
-            change between this different areas at any time.
+            change between different areas at any time.
             <br></br>
             <br></br>
-            These are my professional networks profiles:<br></br>
-            -Gihub:
+            My professional networks:<br></br>
+            -Github:
             <a href="https://github.com/davidjalves">
               <FaGithub
                 size={40}

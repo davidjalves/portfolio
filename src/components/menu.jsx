@@ -6,10 +6,10 @@ export const Menu = () => {
       <Link className={"gap"} to="/">
         Home
       </Link>
-      <Link className={"gap"} to="/public/about-me">
+      <Link className={"gap"} to="/about">
         About me
       </Link>
-      <Link className={"gap"} to="/public/projects">
+      <Link className={"gap"} to="/projects">
         My projects
       </Link>
     </nav>

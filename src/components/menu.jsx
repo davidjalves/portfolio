@@ -10,7 +10,7 @@ export const Menu = () => {
         About me
       </Link>
       <Link className={"gap"} to="/public/projects">
-        My Projects
+        My projects
       </Link>
     </nav>
   );

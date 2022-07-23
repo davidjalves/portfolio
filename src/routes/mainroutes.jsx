@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import { Menu } from "../components";
 import { Home, NotFound } from "../screens";
 import RoutesPublic from "./public/routesPublic";
@@ -12,7 +12,8 @@ const MainRoutes = () => {
 
         <Route path="/public/*" element={<RoutesPublic />} />
 
-        <Route element={<NotFound />} />
+        <Route path="/404" element={<NotFound />} />
+        <Route path="*" element={<Navigate replace to="/404" />} />
       </Routes>
       <Menu />
     </>

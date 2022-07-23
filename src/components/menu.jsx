@@ -1,16 +1,17 @@
 import React from "react";
+import { Link } from "react-router-dom";
 export const Menu = () => {
   return (
     <nav>
-      <a className={"gap"} href="/portfolio">
+      <Link className={"gap"} to="/">
         Home
-      </a>
-      <a className={"gap"} href="/portfolio/public/about-me">
+      </Link>
+      <Link className={"gap"} to="/public/about-me">
         About me
-      </a>
-      <a className={"gap"} href="/portfolio/public/projects">
+      </Link>
+      <Link className={"gap"} to="/public/projects">
         My Projects
-      </a>
+      </Link>
     </nav>
   );
 };

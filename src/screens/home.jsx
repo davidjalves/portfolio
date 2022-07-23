@@ -1,22 +1,11 @@
 import React, { useState } from "react";
 import { Card, Row, Col, Form } from "react-bootstrap";
 import updates from "../data/updates.json";
-//import { useNavigate } from "react-router-dom";
 import { TypeText } from "../components";
 export const Home = () => {
   const [isEnded, setIsEnded] = useState(0);
-  //let history = useNavigate();
   return (
     <div>
-      {/* <Link to="/public/about-me">
-      </Link>
-      <a
-        onClick={() => {
-          history("/public/about-me");
-        }}
-      >
-        aaa
-      </a> */}
       <b>
         <TypeText
           text={"David"}

@@ -10,7 +10,7 @@ export const Projects = () => {
       <b>
         <TypeText
           text={"My projects"}
-          style={{ fontSize: 60 }}
+          style={{ fontSize: 50 }}
           setIsEnded={setIsEnded}
         />
       </b>

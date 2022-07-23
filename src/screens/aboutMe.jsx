@@ -11,7 +11,7 @@ export const AboutMe = () => {
         paddingLeft: "5mm",
         paddingRight: "10mm",
         textAlign: "justify",
-        textJustify: "distribute",
+        textJustify: "inter-word",
       }}
       // hyphens: "auto",
       // webkitHyphens: "auto",
@@ -19,7 +19,7 @@ export const AboutMe = () => {
       <b>
         <TypeText
           text={"About me"}
-          style={{ fontSize: 60 }}
+          style={{ fontSize:50 }}
           setIsEnded={setIsEnded}
         />
       </b>

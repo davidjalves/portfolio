@@ -6,7 +6,16 @@ export const AboutMe = () => {
   const [isEnded, setIsEnded] = useState(0);
 
   return (
-    <div>
+    <div
+      style={{
+        paddingLeft: "5mm",
+        paddingRight: "10mm",
+        textAlign: "justify",
+        textJustify: "distribute",
+      }}
+      // hyphens: "auto",
+      // webkitHyphens: "auto",
+    >
       <b>
         <TypeText
           text={"About me"}

@@ -5,16 +5,21 @@ import { TypeText } from "../components";
 export const Home = () => {
   const [isEnded, setIsEnded] = useState(0);
   return (
-    <div>
+    <div style={{
+      paddingLeft: "5mm",
+      paddingRight: "10mm",
+      textAlign: "justify",
+      textJustify: "inter-word",
+    }}>
       <b>
         <TypeText
           text={"David"}
-          style={{ fontSize: 60 }}
+          style={{ fontSize: 50 }}
           setIsEnded={setIsEnded}
         />
         {isEnded >= 1 && (
           <TypeText
-            style={{ fontSize: 60 }}
+            style={{ fontSize: 50 }}
             text={"Ressurreição"}
             setIsEnded={setIsEnded}
           />
@@ -41,7 +46,7 @@ export const Home = () => {
               </center>
               <Row>
                 {updates.map((update, index) => (
-                  <Col md="4" key={index} style={{ paddingTop: "2mm" }}>
+                  <Col md="3" key={index} style={{ paddingTop: "2mm" }}>
                     <Card>
                       <Card.Body>
                         <Card.Title>{update.title}</Card.Title>

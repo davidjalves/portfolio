@@ -52,11 +52,11 @@ export const Home = () => {
                         <Card.Title>{update.title}</Card.Title>
                         <Card.Text>
                           {update.description}
-                          <br></br>
+                          <hr></hr>
                           {update.date}
                         </Card.Text>
                       </Card.Body>
-                      <Card.Footer> {update.link}</Card.Footer>
+                      <Card.Footer><a href={update.link}>{update.link}</a> </Card.Footer>
                     </Card>
                   </Col>
                 ))}

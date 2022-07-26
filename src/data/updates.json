@@ -1,28 +1,16 @@
 [
-    {
-      "title": "t2",
-      "image":"/",
-      "description": "sfhuwocy tug jegfgwhgfui hiiiufh  uiehfiuhsudighuihsugh iuhsuig hiuhisghuehruh guhiuhreighuiersh guihiuhr suigh irhgui hriuhguihirgiehri igerhiughrigihrg irh",
-      "date": "23 July 2022",
-      "link": "https://example.com"
-    },{
-      "title": "t2",
-      "image":"/",
-      "description": "sfhuwocy tug jegfgwhgfui hiiiufh  uiehfiuhsudighuihsugh iuhsuig hiuhisghuehruh guhiuhreighuiersh guihiuhr suigh irhgui hriuhguihirgiehri igerhiughrigihrg irh",
-      "date": "23 July 2022",
-      "link": "https://example.com"
-    },{
-      "title": "t2",
-      "image":"/",
-      "description": "sfhuwocy tug jegfgwhgfui hiiiufh  uiehfiuhsudighuihsugh iuhsuig hiuhisghuehruh guhiuhreighuiersh guihiuhr suigh irhgui hriuhguihirgiehri igerhiughrigihrg irh",
-      "date": "23 July 2022",
-      "link": "https://example.com"
-    },{
-      "title": "Created a portfolio website",
-      "image":"",
-      "description": "A website just to show some of my skills.",
-      "date": "23 July 2022",
-      "link": "https://davidjalves.github.io/portfolio/"
-    }
-  ]
-  
+  {
+    "title": "Created a web game",
+    "image": "",
+    "description": "A game to guess the name of a country by the flag. Name of the game:'Guess the country'",
+    "date": "26 July 2022",
+    "link": "https://davidjalves.github.io/guess-the-country/"
+  },
+  {
+    "title": "Created a portfolio website",
+    "image": "",
+    "description": "A website just to show some of my skills.",
+    "date": "23 July 2022",
+    "link": "https://davidjalves.github.io/portfolio/"
+  }
+]

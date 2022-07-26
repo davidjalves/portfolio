@@ -1,16 +1,18 @@
 import React, { useState } from "react";
 import { Card, Row, Col, Form } from "react-bootstrap";
 import updates from "../data/updates.json";
-import { TypeText } from "../components";
+import { TypeText, UpdateCard } from "../components";
 export const Home = () => {
   const [isEnded, setIsEnded] = useState(0);
   return (
-    <div style={{
-      paddingLeft: "5mm",
-      paddingRight: "10mm",
-      textAlign: "justify",
-      textJustify: "inter-word",
-    }}>
+    <div
+      style={{
+        paddingLeft: "5mm",
+        paddingRight: "10mm",
+        // textAlign: "justify",
+        // textJustify: "inter-word",
+      }}
+    >
       <b>
         <TypeText
           text={"David"}
@@ -46,19 +48,7 @@ export const Home = () => {
               </center>
               <Row>
                 {updates.map((update, index) => (
-                  <Col md="3" key={index} style={{ paddingTop: "2mm" }}>
-                    <Card>
-                      <Card.Body>
-                        <Card.Title>{update.title}</Card.Title>
-                        <Card.Text>
-                          {update.description}
-                          <hr></hr>
-                          {update.date}
-                        </Card.Text>
-                      </Card.Body>
-                      <Card.Footer><a href={update.link}>{update.link}</a> </Card.Footer>
-                    </Card>
-                  </Col>
+                  <UpdateCard updateObj={update} />
                 ))}
               </Row>
             </Form.Group>

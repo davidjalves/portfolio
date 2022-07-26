@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Row, Form, Col } from "react-bootstrap";
 import { TypeText } from "../components";
-import { ProjectCard } from "../components/projectCard";
+import { ProjectCard } from "../components";
 import projects from "../data/projects.json";
 export const Projects = () => {
   const [isEnded, setIsEnded] = useState(0);

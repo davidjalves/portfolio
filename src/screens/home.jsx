@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Card, Row, Col, Form } from "react-bootstrap";
+import { Row, Col, Form } from "react-bootstrap";
 import updates from "../data/updates.json";
 import { TypeText, UpdateCard } from "../components";
 export const Home = () => {

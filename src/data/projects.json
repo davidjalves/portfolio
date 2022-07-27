@@ -2,7 +2,7 @@
   {
     "title": "Guess the country",
     "image": "images/guess_the_country.PNG",
-    "description": "A web game to guess the name of a country by the flag. The game receives the flags  from a public API, display them to the user, and then the user tries to guess the name of the country that has that flag.The game has a countdown timer and saves the points of the correct answers in the local storage.",
+    "description": "A web game to guess the country name by its flag. The game receives the flags  from a public API, display them to the user, and then the user tries to guess the name of the country that has that flag.The game has a countdown timer and saves the points of the correct answers in the local storage.",
     "techs": ["React.js", "Javascript"],
     "link": "https://davidjalves.github.io/guess-the-country/",
     "source": "https://github.com/davidjalves/guess-the-country"

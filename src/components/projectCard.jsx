@@ -2,12 +2,16 @@ import React from "react";
 import { Col, Card, Button } from "react-bootstrap";
 
 export const ProjectCard = ({ projectObj }) => {
+  //in localhost add portfolio before image link
+
   return (
-    <Col md="4" style={{ paddingTop: "2mm" , minWidth:"7cm"}}>
+    <Col md="4" style={{ paddingTop: "2mm", minWidth: "7cm" }}>
       <Card>
         <Card.Img src={projectObj.image}></Card.Img>
         <Card.Body>
-          <Card.Title><b>{projectObj.title}</b></Card.Title>
+          <Card.Title>
+            <b>{projectObj.title}</b>
+          </Card.Title>
           <Card.Text>
             <b>Description:</b>
             <br></br>

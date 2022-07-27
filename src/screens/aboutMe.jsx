@@ -19,32 +19,52 @@ export const AboutMe = () => {
       <b>
         <TypeText
           text={"About me"}
-          style={{ fontSize:50 }}
+          style={{ fontSize: 50 }}
           setIsEnded={setIsEnded}
         />
       </b>
       {isEnded >= 1 && (
         <>
-          <div style={{ fontSize: 20, paddingBottom: "10cm" }}>
+          <div style={{ fontSize: 20, paddingBottom: "5cm" }}>
             I'm David Ressurreição, a software engineer from Portugal.<br></br>
             My degree in Telecommunications and computer engineering prepared me
             to multiple areas, like electronics, networks and programming. I
             specialized in the programming area, but I have the knowledge to
             change between different areas at any time.
             <br></br>
-            <br></br>I have experience with:
+            <br></br>
+            <b>I have experience with:</b>
+            <br></br>
+            -Programming languages:
             <ul>
               <li>Javascript</li>
               <li>Python3</li>
-              <li>React.js</li>
-              <li>MongoDB</li>
               <li>SQL</li>
-              <li>Firebase</li>
-              <li>Unity3D</li>
               <li>C</li>
-              <li>Java</li>
               <li>C#</li>
+              <li>Java</li>
+              <li>MATLAB</li>
             </ul>
+            -Web frontend frameworks:
+            <ul>
+              <li>React.js</li>
+              <li>JQuery</li>
+            </ul>
+            -Web backend frameworks:
+            <ul>
+              <li>Express.js</li>
+            </ul>
+            -Database technologies:
+            <ul>
+              <li>MongoDB</li>
+              <li>MySQL</li>
+              <li>Firebase</li>
+            </ul>
+            -Virtual and augmented reality technologies:
+            <ul>
+              <li>Unity3D</li>
+            </ul>
+            <ul></ul>
             <br></br>
             My professional networks:<br></br>
             <ul>

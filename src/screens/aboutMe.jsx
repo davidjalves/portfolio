@@ -66,7 +66,7 @@ export const AboutMe = () => {
             </ul>
             <ul></ul>
             <br></br>
-            My professional networks:<br></br>
+            <b>My professional networks:</b><br></br>
             <ul>
               <li>
                 Github:

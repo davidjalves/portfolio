@@ -1,5 +1,12 @@
 [
   {
+    "title": "Created a web app",
+    "image": "",
+    "description": "A app to help memorize things.Name of the app:'MemoQuiz'",
+    "date": "1 August 2022",
+    "link": "https://github.com/davidjalves/memo-quiz"
+  },
+  {
     "title": "Created a web game",
     "image": "",
     "description": "A game to guess the country name by its flag. Name of the game:'Guess the country'",

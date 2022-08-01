@@ -53,7 +53,10 @@ export const Home = () => {
               </Row>
             </Form.Group>
           </div>
-          <center>David Ressurreição&copy;{new Date().getFullYear()}</center>
+          <center>
+            Made by
+            <a href="https://github.com/davidjalves">David Ressurreição</a>
+          </center>
         </>
       )}
     </div>

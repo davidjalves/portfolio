@@ -1,5 +1,13 @@
 [
   {
+    "title": "MemoQuiz",
+    "image": "images/memo_quiz.PNG",
+    "description": "A web app to help memorize things. The app can create a quiz with questions and correct answers and then export it to a file or start answering it online. While answering the quiz, there is a timer to know how many seconds it takes to answer the quiz, and the user then could export a JSON file with all the questions,correct answers, answers, and the time that it took to answer them. The app also supports the import of quizzes and then the user can edit and redo them.",
+    "techs": ["React.js", "Javascript"],
+    "link": "https://davidjalves.github.io/memo-quiz/",
+    "source": "https://github.com/davidjalves/memo-quiz"
+  },
+  {
     "title": "Guess the country",
     "image": "images/guess_the_country.PNG",
     "description": "A web game to guess the country name by its flag. The game receives the flags  from a public API, display them to the user, and then the user tries to guess the name of the country that has that flag.The game has a countdown timer and saves the points of the correct answers in the local storage.",

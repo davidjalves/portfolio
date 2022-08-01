@@ -106,8 +106,8 @@ export const AboutMe = () => {
             </ul>
           </div>
           <center>
-            Made by
-            <a href="https://github.com/davidjalves">David Ressurreição</a>
+            Made by{" "}
+            <a href="https://github.com/davidjalves" style={{color:"black"}}>David Ressurreição</a>
           </center>
         </>
       )}

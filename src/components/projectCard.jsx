@@ -7,7 +7,7 @@ export const ProjectCard = ({ projectObj }) => {
   return (
     <Col md="4" style={{ paddingTop: "2mm", minWidth: "7cm" }}>
       <Card>
-        <Card.Img src={projectObj.image}></Card.Img>
+        <Card.Img height={"300vh"}src={projectObj.image}></Card.Img>
         <Card.Body>
           <Card.Title>
             <b>{projectObj.title}</b>
@@ -34,8 +34,8 @@ export const ProjectCard = ({ projectObj }) => {
             flexDirection: "column",
           }}
         >
-          <Button href={projectObj.link}>Website</Button>
-          <Button variant="success" href={projectObj.source}>
+          <Button href={projectObj.link} style={{margin:"2mm"}}>Website</Button>
+          <Button variant="success" style={{margin:"2mm"}} href={projectObj.source}>
             Source code
           </Button>
         </Card.Footer>

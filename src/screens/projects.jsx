@@ -27,7 +27,7 @@ export const Projects = () => {
             <Form.Group
               as={Col}
               md="11"
-              style={{ paddingTop: "1mm", paddingBottom: "10cm" }}
+              style={{ paddingTop: "1mm", marginBottom: "40vh" }}
             >
               <Row>
                 {projects.map((project, index) => (
@@ -37,8 +37,8 @@ export const Projects = () => {
             </Form.Group>
           </div>
           <center>
-            Made by
-            <a href="https://github.com/davidjalves">David Ressurreição</a>
+            Made by{" "}
+            <a href="https://github.com/davidjalves" style={{color:"black"}}>David Ressurreição</a>
           </center>
         </>
       )}
